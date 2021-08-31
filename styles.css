@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Rampart+One&display=swap');
 *{
    padding:0;
    margin: 0;
@@ -27,10 +28,29 @@
 }
 .head
 {
-    background-color: red;
+    background-color: rgb(255, 0, 140);
+    border :2px solid purple;
+    transform: scale(1.05);
+    border-radius: 9px;
+}
+#scoreBox
+{
+    position: absolute;
+    top:40px;
+    right: 160px;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Rampart One', cursive;
+}
+.snake
+{
+background-color: rgb(73, 70, 241);
+border: 3px solid black;
+border-radius: 50%;
 }
 .food
 {
-    background-color: purple;
-    
+    background-color: rgb(252, 13, 13);
+    border: 3px solid rgb(7, 5, 0);
+   border-radius: 50%;
 }
